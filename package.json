@@ -1,0 +1,33 @@
+{
+  "name": "docx-header-num",
+  "version": "0.0.0",
+  "description": "Adds header numbers to pandoc generated docx",
+  "scripts": {
+    "test": "sh ./test/test.sh"
+  },
+  "bin": {
+    "docx-header-num": "bin/docx-header-num.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mvhenderson/pandoc-docx-header-num.git"
+  },
+  "keywords": [
+    "pandoc",
+    "pandocfilter",
+    "docx"
+  ],
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "author": "Mike Henderson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mvhenderson/pandoc-docx-header-num/issues"
+  },
+  "homepage": "https://github.com/mvhenderson/pandoc-docx-header-num",
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "pandoc-filter": "~0.1.2"
+  }
+}
