@@ -1,6 +1,6 @@
 {
   "name": "docx-header-num",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Adds header numbers to pandoc generated docx",
   "scripts": {
     "test": "sh ./test/test.sh"
